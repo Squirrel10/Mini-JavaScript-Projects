@@ -1,0 +1,9 @@
+//we'll find out how many computer monitors we need for the room
+
+function monitorCount(rows, columns) {
+return  rows * columns;
+};
+
+const numOfMonitors = monitorCount(5, 4);
+
+console.log(numOfMonitors);
